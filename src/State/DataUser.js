@@ -30,7 +30,7 @@ const defaultstate = {
       case 'SET_password_confirmation':
         return {...state, login: true, password_confirmation: action.payload};
       case 'SET_password':
-        return {...state, login: true, password: action.payload};
+        return {...state, login: true, password: action.payload};matchMedia
       default:
         return state;
     }
